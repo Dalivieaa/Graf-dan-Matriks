@@ -1,0 +1,17 @@
+GRAF DEGREE
+----------------------------
+import numpy as np
+nodes = ['A', 'B', 'C' , 'D']
+A = np.array([
+    [0,2,4,0],
+    [2,0,0,3],
+    [4,0,0,1],
+    [0,3,1,0]
+])
+print("hasil degree A")
+degree = np.sum(A > 0, axis=1)
+print(degree)
+----------------------------------
+HASIL OUTPUTNYA
+hasil degree A
+[2 2 2 2]
