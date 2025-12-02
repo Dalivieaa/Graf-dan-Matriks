@@ -1,7 +1,7 @@
 OPERASI BILANGAN NUMPY
 import numpy as np
 m1 = np.array([[1,2],
-	       [3,4]])
+	           [3,4]])
 m2 = np.array([[5,6],
                [7,8]])
 
@@ -14,7 +14,7 @@ print("Matriks Pengurangan")
 penjumlahan = m1 @ m2
 print("Matriks Perkalian")
 print(penjumlahan)
-
+-----------------------------
 HASIL OUTPUT
 Matriks Pertama
 [[1 2]
@@ -31,14 +31,3 @@ Matriks Perkalian
 Matriks Penjumlahan
 [[19 22]
  [43 50]]
--------------------------------
-MATRIKS ADJACENCY (KETETANGGAAN)
-import numpy as np
-nodes = ['A', 'B', 'C' , 'D']
-A = np.array([
-    [0,2,4,0],
-    [2,0,0,3],
-    [4,0,0,1],
-    [0,3,1,0]
-])
-print(A)
