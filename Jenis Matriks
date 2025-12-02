@@ -1,4 +1,5 @@
 JENIS MATRIKS
+-------------------------------
 #1.MEMBUAT MATRIKS BARU
 import numpy as np
 M1 = np.array([[1,2],[3,4] ])
@@ -35,7 +36,6 @@ Z=np.zeros((3,3))
 I=np.eye(3)
 print("Matriks nol")
 print(Z, I)
-
 ----------------------------------
 HASIL OUTPUT
 [[0 2 4 0]
