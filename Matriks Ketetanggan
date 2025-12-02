@@ -1,3 +1,5 @@
+MATRIKS ADJACENCY (KETETANGGAAN)
+--------------------------------
 import numpy as np
 nodes = ['A', 'B', 'C' , 'D']
 A = np.array([
@@ -7,6 +9,5 @@ A = np.array([
     [0,3,1,0]
 ])
 print(A)
-
--------------------------------
+---------------------------------
 Hasil Outputnya
