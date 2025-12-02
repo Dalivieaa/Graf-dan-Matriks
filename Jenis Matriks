@@ -1,0 +1,68 @@
+JENIS MATRIKS
+#1.MEMBUAT MATRIKS BARU
+import numpy as np
+M1 = np.array([[1,2],[3,4] ])
+M2 = np.array([[5,6], [7,8]])
+print("Matriks baru")
+print(M1,M2)
+
+#2.PENJUMLAHAN MATRIKS
+M_tambah = M1 + M2
+print("Matriks Penjumlahan")
+print(M_tambah)
+
+#3.PENGURANGAN MATRIKS
+M_kurang = M1 - M2
+print("Matriks Pengurangan")
+print(M_kurang)
+
+#4.PERKALIAN MATRIKS (dot product) atau M_kali = M1 @ M2
+M_kali= np.dot (M1,M2)
+print("Matriks perkalian")
+print(M_kali)
+
+#5.Transpose Matriks
+M_Transpose = M1.T
+print("Matriks Transpose")
+print(M_Transpose)
+
+#6.MENGAKSES ELEMEN MATRIKS
+print("Matriks elemen")
+print(M1[0][1]) #baris 1 kolom 2
+
+#7.MEMBUAT MATRIKS NOL (IDENTITAS)
+Z=np.zeros((3,3))
+I=np.eye(3)
+print("Matriks nol")
+print(Z, I)
+
+----------------------------------
+HASIL OUTPUT
+[[0 2 4 0]
+ [2003]
+ [4001]
+ [0310]]
+Matriks baru
+[[1 2]
+ [3 4]] [[5 6]
+ [7 8]]
+Matriks Penjumlahan
+[[ 6 8]
+ [10 12]]
+Matriks Pengurangan
+[[-4 -4]
+ [-4 -4]]
+Matriks perkalian
+[[19 22]
+ [43 50]]
+Matriks Transpose
+[[1 3]
+ [2 4]]
+Matriks elemen
+2
+Matriks nol
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]] [[1. 0. 0.]
+ [0. 1. 0.]
+ [0. 0. 1.]]
